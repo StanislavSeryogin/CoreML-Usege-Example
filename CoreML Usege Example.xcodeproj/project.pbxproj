@@ -10,7 +10,7 @@
 		0EFCBBC92A9CD1740099288A /* CoreML_Usege_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFCBBC82A9CD1740099288A /* CoreML_Usege_ExampleApp.swift */; };
 		0EFCBBCD2A9CD1760099288A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EFCBBCC2A9CD1760099288A /* Assets.xcassets */; };
 		0EFCBBD02A9CD1760099288A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EFCBBCF2A9CD1760099288A /* Preview Assets.xcassets */; };
-		0EFCBBD82A9CD1BE0099288A /* DetectLanguageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFCBBD72A9CD1BE0099288A /* DetectLanguageButton.swift */; };
+		0EFCBBD82A9CD1BE0099288A /* MainAppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFCBBD72A9CD1BE0099288A /* MainAppButton.swift */; };
 		0EFCBBDD2A9CD1CE0099288A /* LanguageDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFCBBDB2A9CD1CE0099288A /* LanguageDetectionView.swift */; };
 		0EFCBBDE2A9CD1CE0099288A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFCBBDC2A9CD1CE0099288A /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
@@ -20,7 +20,7 @@
 		0EFCBBC82A9CD1740099288A /* CoreML_Usege_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreML_Usege_ExampleApp.swift; sourceTree = "<group>"; };
 		0EFCBBCC2A9CD1760099288A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EFCBBCF2A9CD1760099288A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0EFCBBD72A9CD1BE0099288A /* DetectLanguageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetectLanguageButton.swift; sourceTree = "<group>"; };
+		0EFCBBD72A9CD1BE0099288A /* MainAppButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainAppButton.swift; sourceTree = "<group>"; };
 		0EFCBBDB2A9CD1CE0099288A /* LanguageDetectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageDetectionView.swift; sourceTree = "<group>"; };
 		0EFCBBDC2A9CD1CE0099288A /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,7 +76,7 @@
 		0EFCBBD62A9CD1BE0099288A /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				0EFCBBD72A9CD1BE0099288A /* DetectLanguageButton.swift */,
+				0EFCBBD72A9CD1BE0099288A /* MainAppButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -169,7 +169,7 @@
 			files = (
 				0EFCBBDE2A9CD1CE0099288A /* WelcomeView.swift in Sources */,
 				0EFCBBDD2A9CD1CE0099288A /* LanguageDetectionView.swift in Sources */,
-				0EFCBBD82A9CD1BE0099288A /* DetectLanguageButton.swift in Sources */,
+				0EFCBBD82A9CD1BE0099288A /* MainAppButton.swift in Sources */,
 				0EFCBBC92A9CD1740099288A /* CoreML_Usege_ExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

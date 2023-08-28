@@ -13,7 +13,7 @@ struct WelcomeView: View {
         NavigationView {
             VStack(spacing: 20) {
                 NavigationLink(destination: LanguageDetectionView()) {
-                    DetectLanguageButton()
+                    MainAppButton(title: "Go to Language Detection")
                 }
             }
             .padding()
