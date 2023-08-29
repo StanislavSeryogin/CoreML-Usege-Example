@@ -15,6 +15,9 @@ struct WelcomeView: View {
                 NavigationLink(destination: LanguageDetectionView()) {
                     MainAppButton(title: "Go to Language Detection")
                 }
+                NavigationLink(destination: ImageAnalysisView()) {
+                    MainAppButton(title: "Go to Image Analisys")
+                }
             }
             .padding()
             .navigationTitle("Welcome")

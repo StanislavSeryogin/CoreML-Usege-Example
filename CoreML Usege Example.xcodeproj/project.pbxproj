@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E59F1382A9E20B900DF952F /* ImageAnalisysViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E59F1372A9E20B900DF952F /* ImageAnalisysViewModel.swift */; };
+		0E59F13C2A9E20F300DF952F /* LanguageDetectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E59F13B2A9E20F300DF952F /* LanguageDetectionViewModel.swift */; };
+		0E59F1402A9E210300DF952F /* WelcomViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E59F13E2A9E210300DF952F /* WelcomViewButton.swift */; };
+		0E59F1412A9E210300DF952F /* CameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E59F13F2A9E210300DF952F /* CameraButton.swift */; };
+		0E59F1462A9E210C00DF952F /* ImageAnalisysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E59F1432A9E210C00DF952F /* ImageAnalisysView.swift */; };
+		0E59F1472A9E210C00DF952F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E59F1442A9E210C00DF952F /* ImagePicker.swift */; };
+		0E59F1482A9E210C00DF952F /* DisplayImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E59F1452A9E210C00DF952F /* DisplayImageView.swift */; };
 		0EFCBBC92A9CD1740099288A /* CoreML_Usege_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFCBBC82A9CD1740099288A /* CoreML_Usege_ExampleApp.swift */; };
 		0EFCBBCD2A9CD1760099288A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EFCBBCC2A9CD1760099288A /* Assets.xcassets */; };
 		0EFCBBD02A9CD1760099288A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EFCBBCF2A9CD1760099288A /* Preview Assets.xcassets */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E59F1372A9E20B900DF952F /* ImageAnalisysViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAnalisysViewModel.swift; sourceTree = "<group>"; };
+		0E59F13B2A9E20F300DF952F /* LanguageDetectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageDetectionViewModel.swift; sourceTree = "<group>"; };
+		0E59F13E2A9E210300DF952F /* WelcomViewButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomViewButton.swift; sourceTree = "<group>"; };
+		0E59F13F2A9E210300DF952F /* CameraButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraButton.swift; sourceTree = "<group>"; };
+		0E59F1432A9E210C00DF952F /* ImageAnalisysView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAnalisysView.swift; sourceTree = "<group>"; };
+		0E59F1442A9E210C00DF952F /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		0E59F1452A9E210C00DF952F /* DisplayImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayImageView.swift; sourceTree = "<group>"; };
 		0EFCBBC52A9CD1740099288A /* CoreML Usege Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreML Usege Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EFCBBC82A9CD1740099288A /* CoreML_Usege_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreML_Usege_ExampleApp.swift; sourceTree = "<group>"; };
 		0EFCBBCC2A9CD1760099288A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,6 +50,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E59F1352A9E202A00DF952F /* LanguageDetection */ = {
+			isa = PBXGroup;
+			children = (
+				0EFCBBDB2A9CD1CE0099288A /* LanguageDetectionView.swift */,
+			);
+			path = LanguageDetection;
+			sourceTree = "<group>";
+		};
+		0E59F1362A9E20B900DF952F /* ImageAnalisys */ = {
+			isa = PBXGroup;
+			children = (
+				0E59F1372A9E20B900DF952F /* ImageAnalisysViewModel.swift */,
+			);
+			path = ImageAnalisys;
+			sourceTree = "<group>";
+		};
+		0E59F1392A9E20C700DF952F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0E59F13A2A9E20F300DF952F /* LanguageDetector */,
+				0E59F1362A9E20B900DF952F /* ImageAnalisys */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0E59F13A2A9E20F300DF952F /* LanguageDetector */ = {
+			isa = PBXGroup;
+			children = (
+				0E59F13B2A9E20F300DF952F /* LanguageDetectionViewModel.swift */,
+			);
+			path = LanguageDetector;
+			sourceTree = "<group>";
+		};
+		0E59F13D2A9E210300DF952F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0E59F13E2A9E210300DF952F /* WelcomViewButton.swift */,
+				0E59F13F2A9E210300DF952F /* CameraButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0E59F1422A9E210C00DF952F /* ImageAnalisys */ = {
+			isa = PBXGroup;
+			children = (
+				0E59F1432A9E210C00DF952F /* ImageAnalisysView.swift */,
+				0E59F1442A9E210C00DF952F /* ImagePicker.swift */,
+				0E59F1452A9E210C00DF952F /* DisplayImageView.swift */,
+			);
+			path = ImageAnalisys;
+			sourceTree = "<group>";
+		};
+		0E59F14B2A9E2CC200DF952F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		0EFCBBBC2A9CD1740099288A = {
 			isa = PBXGroup;
 			children = (
@@ -55,8 +128,9 @@
 		0EFCBBC72A9CD1740099288A /* CoreML Usege Example */ = {
 			isa = PBXGroup;
 			children = (
+				0E59F14B2A9E2CC200DF952F /* Models */,
+				0E59F1392A9E20C700DF952F /* ViewModel */,
 				0EFCBBDA2A9CD1CE0099288A /* Views */,
-				0EFCBBD92A9CD1C70099288A /* Utilities */,
 				0EFCBBD62A9CD1BE0099288A /* Components */,
 				0EFCBBC82A9CD1740099288A /* CoreML_Usege_ExampleApp.swift */,
 				0EFCBBCC2A9CD1760099288A /* Assets.xcassets */,
@@ -81,17 +155,12 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
-		0EFCBBD92A9CD1C70099288A /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
 		0EFCBBDA2A9CD1CE0099288A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0EFCBBDB2A9CD1CE0099288A /* LanguageDetectionView.swift */,
+				0E59F1422A9E210C00DF952F /* ImageAnalisys */,
+				0E59F13D2A9E210300DF952F /* Components */,
+				0E59F1352A9E202A00DF952F /* LanguageDetection */,
 				0EFCBBDC2A9CD1CE0099288A /* WelcomeView.swift */,
 			);
 			path = Views;
@@ -168,8 +237,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EFCBBDE2A9CD1CE0099288A /* WelcomeView.swift in Sources */,
+				0E59F1382A9E20B900DF952F /* ImageAnalisysViewModel.swift in Sources */,
+				0E59F1482A9E210C00DF952F /* DisplayImageView.swift in Sources */,
+				0E59F1462A9E210C00DF952F /* ImageAnalisysView.swift in Sources */,
+				0E59F1412A9E210300DF952F /* CameraButton.swift in Sources */,
+				0E59F1402A9E210300DF952F /* WelcomViewButton.swift in Sources */,
 				0EFCBBDD2A9CD1CE0099288A /* LanguageDetectionView.swift in Sources */,
 				0EFCBBD82A9CD1BE0099288A /* MainAppButton.swift in Sources */,
+				0E59F1472A9E210C00DF952F /* ImagePicker.swift in Sources */,
+				0E59F13C2A9E20F300DF952F /* LanguageDetectionViewModel.swift in Sources */,
 				0EFCBBC92A9CD1740099288A /* CoreML_Usege_ExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -281,7 +357,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -302,11 +378,13 @@
 				DEVELOPMENT_TEAM = RGQ8242S96;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "I use camera for test";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -331,11 +409,13 @@
 				DEVELOPMENT_TEAM = RGQ8242S96;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "I use camera for test";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
